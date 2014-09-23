@@ -197,6 +197,7 @@
 	
 	// Set the alert window to nil so that it gets removed from the screen. Otherwise, since its windowLevel is set to
 	// UIWindowLevelAlert, it will cover up the current window, causing it to appear unresponsive.
+        self.alertWindow.hidden = YES;
 	self.alertWindow = nil;
 }
 
